@@ -2,9 +2,10 @@ import re
 
 class Solution:
     def isPalindrome(self, s: str) -> bool:
-        
+
         eng_int_com = re.compile(r'[^a-z^A-Z^0-9]*')
         m = eng_int_com.sub('',s)
+        print(m)
         m_l = m.lower()
         return m_l == m_l[::-1]
 

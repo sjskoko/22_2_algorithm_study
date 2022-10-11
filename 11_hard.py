@@ -49,6 +49,7 @@ for i in range(len(nums)-1, -1, -1):
 print(result)
 
 '''
+d
 Runtime: 488 ms, faster than 35.56% of Python3 online submissions for Product of Array Except Self.
 Memory Usage: 21.1 MB, less than 95.54% of Python3 online submissions for Product of Array Except Self.
 '''

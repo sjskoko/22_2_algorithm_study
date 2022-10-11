@@ -17,6 +17,9 @@ def generate(list1, list2):
     val1 = list1.val
     val2 = list2.val
 
+    if list1.val == None and list2.val == None:
+        return None
+
     if val1<=val2:
         val1.next = generate(list1.next, list2)
         return val1
@@ -25,3 +28,5 @@ def generate(list1, list2):
         return val2
     
 result = generate(list1, list2)
+
+list1 = [1,2,43,4]
